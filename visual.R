@@ -1,0 +1,5 @@
+pie(table(iris$Species))
+hist(iris$Sepal.Length)
+boxplot(iris$Petal.Width~iris$Species)
+plot(x=iris$Petal.Length, y=iris$Petal.Width, , col=iris$Species)
+pairs(iris[1:4], main = "Shikha", pch = 21, bg = c("red","green","blue"))

@@ -1,0 +1,16 @@
+ddply: 
+
+For each subset of a data frame, apply function then combine results into a data frame. To apply a function for each row, use adply with .margins set to 1.
+
+Usage
+ddply(.data, .variables, .fun = NULL, ..., .progress = "none",
+  .inform = FALSE, .drop = TRUE, .parallel = FALSE, .paropts = NULL)
+Arguments
+.data
+data frame to be processed
+.variables
+variables to split data frame by, as as.quoted variables, a formula or character vector
+.fun
+function to apply to each piece
+...
+other arguments passed on to .fun
